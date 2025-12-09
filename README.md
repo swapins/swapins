@@ -6,7 +6,7 @@
 
 - 💞️ I am actively seeking collaboration opportunities on projects related to biophp developments. I believe in the potential of combining Laravel's robustness with the domain-specific requirements of biophp.
 
-- 📫 For professional inquiries and collaboration discussions, you can reach me at swapin@laravelone.in. Please include "laravel-git" in the subject line to ensure your message is appropriately prioritized.
+- 📫 For professional inquiries and collaboration discussions, you can reach me at swapin@masked.... Please include "laravel-git" in the subject line to ensure your message is appropriately prioritized.
 
 Looking forward to fruitful partnerships and exciting biophp projects!
 
