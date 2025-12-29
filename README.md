@@ -1,16 +1,17 @@
-- 👋 Hello, I am Swapins (@swapins).
+- 👋 **Hello, I am Swapins (@swapins).**
 
-- 👀 I have a keen interest and specialization in Laravel Development, a powerful PHP framework.
+- 👀 I am an **Applied AI & Bioinformatics Researcher** with a background in Laravel/PHP ecosystems.
 
-- 🌱 Currently, I am dedicatedly enhancing my skills in Laravel 9 to stay up-to-date with the latest advancements.
+- 🌱 Currently, I am focused on **BioPHP**—exploring how PHP frameworks can be optimized for biological data processing and edge computing.
 
-- 💞️ I am actively seeking collaboration opportunities on projects related to biophp developments. I believe in the potential of combining Laravel's robustness with the domain-specific requirements of biophp.
+- 🎓 **Current Status:** I am pursuing full-time academic studies in Singapore (Business Administration).
 
-- 📫 For professional inquiries and collaboration discussions, you can reach me at swapin@masked.... Please include "laravel-git" in the subject line to ensure your message is appropriately prioritized.
+- ⚠️ **Note:** I am currently on an **academic sabbatical** and am **not** accepting commercial freelance work or professional consulting inquiries at this time.
 
-Looking forward to fruitful partnerships and exciting biophp projects!
+- 💞️ I am open to discussing **Open Source** contributions related to:
+  - Bio-informatics algorithms in PHP.
+  - Edge AI architecture.
 
-<!---
-swapins/swapins is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 📫 **Contact:**
+  - For code issues: Please open a customized Issue in the relevant repository.
+  - For academic/research networking: Connect via LinkedIn.
