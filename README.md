@@ -42,8 +42,8 @@ I bridge the gap between clinical medicine and high-performance computing. With 
 ### 🌐 Let's Connect
 I am always open to discussing **research collaborations**, **Edge AI architecture**, or the **future of MedTech**.
 
-- **LinkedIn:** [Your LinkedIn Profile Link]
-- **Email:** [Your Professional Email]
+- **LinkedIn:** [[Your LinkedIn Profile Link](https://www.linkedin.com/in/swapin-vidya/)]
+- **Email:** [vswapin@gmail.com]
 - **Location:** Singapore 🇸🇬
 
 ---
