@@ -1,96 +1,143 @@
 # Swapin Vidya
+Independent Researcher (ORCID: 0009-0009-5758-3845)
 
-**Edge AI Systems Architect | Decentralized Intelligence Research**
+**Edge AI Systems Architect | Distributed Intelligence | Applied AI Research**
 
-I design and prototype computationally efficient AI architectures for deployment on resource-constrained edge systems. My work focuses on bridging high-complexity machine learning models with low-latency, energy-aware execution environments in healthcare, agriculture, and environmental monitoring.
+I design and prototype **computationally efficient artificial intelligence systems for resource-constrained edge environments**. My work focuses on bridging high-complexity machine learning models with **low-latency, energy-aware execution architectures** used in healthcare, environmental monitoring, and distributed sensing systems.
 
-This portfolio documents research prototypes and architectural explorations aligned with long-term Edge-AI system development.
+My portfolio combines **systems engineering, applied machine learning, and research exploration**, focusing on making advanced AI models practical for **decentralized real-world infrastructure**.
+
+
+# Flagship Work
+
+## Edge-GNN Systems Analysis
+
+Repository
+https://github.com/swapins/gnn-edge-systems-analysis
+
+A systems-level investigation into **deploying Graph Neural Networks on edge hardware** for biological network analysis.
+
+The project explores:
+
+* Graph Neural Network inference under **hardware constraints**
+* latency and memory behavior of GNN architectures
+* biological interaction network modeling
+* architectural strategies for **hardware-aware machine learning systems**
+
+This repository serves as an **experimental framework for studying Edge-native GNN deployment**.
+
+
+# Research Identity
+
+My research interests sit at the intersection of **artificial intelligence systems, graph neural networks, and computational biology**.
+
+Research areas include:
+
+* Graph Neural Networks (GNN)
+* Edge AI systems
+* Computational biology
+* Protein interaction network modeling
+* Decentralized machine learning systems
+* Hardware-aware neural architecture design
+
+Academic researcher identifier:
+
+ORCID
+https://orcid.org/0009-0009-5758-3845
+
+
+# Selected Architecture Prototypes
+
+### Med-Guard — Edge Clinical Monitoring
+
+A decentralized anomaly detection framework designed for **real-time physiological signal analysis on single-board computers**.
+
+Focus areas include:
+
+* signal normalization stability
+* low-latency inference
+* fault-tolerant distributed monitoring architectures
+
+
+### Oncology-GNN-Edge — Biomedical Graph Modeling
+
+Experimental framework for **Graph Neural Network architectures applied to protein-protein interaction networks**.
+
+Research focus:
+
+* normalized graph convolution stability
+* sparse graph processing
+* feasibility of GNN inference on constrained hardware platforms
+
+
+### PeachBotAgri — Modular Edge-AI Platform
+
+A modular experimentation platform integrating:
+
+* computer vision detection models
+* IoT telemetry streams
+* GPS-linked environmental datasets
+
+Designed to evaluate **distributed AI inference strategies in low-connectivity agricultural environments**.
+
+
+### Eco-Guard Ramsar — Environmental Monitoring Architecture
+
+Experimental edge architecture combining **environmental sensor fusion with AI-assisted biological indicator detection** for ecological monitoring research.
+
+
+# Technical Stack
+
+### Machine Learning & Edge Systems
+
+* PyTorch
+* TensorFlow Lite
+* Graph Neural Networks
+* Model quantization and optimization
+* NVIDIA Jetson and SBC-class hardware
+
+### Systems Architecture
+
+* PHP (Senior)
+* Laravel
+* PostgreSQL / MySQL
+* Redis
+* RESTful and GraphQL APIs
+
+### Distributed Infrastructure
+
+* Docker
+* Kubernetes
+* Linux systems administration
+* MQTT messaging systems
+* Event-driven microservices
+
+### Biomedical Data Systems
+
+* Protein-protein interaction networks
+* TCGA dataset preprocessing
+* Healthcare interoperability concepts (FHIR)
+* Privacy-aware distributed systems
+
+
+# Background
+
+* MBBS Coursework — Government Medical College, Thiruvananthapuram
+* Diploma in Business Administration (In Progress)
+
+My work integrates **medical domain understanding with systems engineering** to explore scalable **decentralized AI architectures**.
+
+
+# Current Exploration
+
+* Hardware-aware Graph Neural Network optimization
+* Stability-aware neural model compression
+* Energy-efficient edge inference scheduling
+* Distributed anomaly detection across edge nodes
+* Edge-native AI architecture design
 
 ---
 
-## Core Technical Themes
+Singapore-based.
 
-- Decentralized anomaly detection for real-time medical monitoring  
-- Graph Neural Network (GNN) optimization for biomedical modeling  
-- Multi-modal AI systems (vision + telemetry + geospatial data)  
-- Energy-aware and solar-powered edge computation  
-- Secure and privacy-conscious distributed architectures  
-
----
-
-## Selected Architecture Prototypes
-
-### Med-Guard – Edge Clinical Monitoring
-A decentralized statistical anomaly detection framework designed for real-time vital signal analysis on single-board computers (SBCs).  
-Focus areas include signal normalization stability, low-latency inference, and fault-tolerant edge execution.
-
----
-
-### Oncology-GNN-Edge – Biomedical Graph Modeling
-Research-driven implementation of normalized graph convolution techniques for Protein-Protein Interaction (PPI) analysis.  
-Emphasis on numerical stability, sparse graph handling, and feasibility of GNN inference under constrained hardware conditions.
-
----
-
-### PeachBotAgri – Modular Edge-AI Platform
-A plugin-based experimentation framework integrating computer vision (YOLO-based detection), IoT telemetry, and GPS-linked historical climate data.  
-Designed to evaluate distributed inference strategies in low-connectivity agricultural environments.
-
----
-
-### Eco-Guard Ramsar – Sustainable Edge Systems
-A solar-aware edge architecture prototype combining physico-chemical sensor fusion with AI-based biological indicator detection for ecological monitoring research.
-
----
-
-## Technical Stack
-
-**Machine Learning & Edge Deployment**
-- PyTorch
-- TensorFlow Lite
-- Graph Neural Networks
-- Model Quantization & Optimization
-- NVIDIA Jetson & SBC-class hardware
-
-**Systems Architecture**
-- PHP (Senior)
-- Laravel
-- PostgreSQL / MySQL
-- Redis
-- RESTful & GraphQL APIs
-
-**Distributed Infrastructure**
-- Docker
-- Kubernetes
-- Linux Systems Administration
-- MQTT
-- Event-driven microservices
-
-**Biomedical & Data Systems**
-- Protein interaction network analysis
-- Clinical dataset preprocessing (e.g., TCGA)
-- Healthcare interoperability concepts (FHIR)
-- Privacy-aware system design
-
----
-
-## Academic Background
-
-- MBBS Coursework Completed – Government Medical College, Thiruvananthapuram  
-- Diploma in Business Administration (In Progress)
-
-My work integrates medical domain knowledge with systems engineering to explore scalable decentralized AI architectures.
-
----
-
-## Ongoing Exploration
-
-- Stability-aware GNN compression techniques  
-- Energy-efficient inference scheduling  
-- Distributed anomaly detection across edge nodes  
-- Hardware-conscious model design for real-time systems  
-
----
-
-Singapore-based.  
-Open to academic collaboration, technical discussions, and systems-level architecture exchange.
+Open to **research collaboration, interdisciplinary AI systems development, and systems-level architecture discussions**.
