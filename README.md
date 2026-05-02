@@ -1,143 +1,68 @@
 # Swapin Vidya
-Independent Researcher (ORCID: 0009-0009-5758-3845)
+**Senior Systems Architect | Edge-Native Intelligence | Technical Strategy**
 
-**Edge AI Systems Architect | Distributed Intelligence | Applied AI Research**
+I am a **Senior Systems Architect and Backend Developer with 7+ years of experience** building production-grade web applications and distributed infrastructure. Currently on a deliberate academic sabbatical, I am bridging my hardcore backend engineering expertise with advanced research in **Edge AI, Graph Neural Networks (GNNs), and clinical intelligence**.
 
-I design and prototype **computationally efficient artificial intelligence systems for resource-constrained edge environments**. My work focuses on bridging high-complexity machine learning models with **low-latency, energy-aware execution architectures** used in healthcare, environmental monitoring, and distributed sensing systems.
+By combining deterministic systems engineering with foundational medical domain knowledge and ongoing Business Administration studies, I focus on driving technical strategy and scaling decentralized AI operations for real-world infrastructure.
 
-My portfolio combines **systems engineering, applied machine learning, and research exploration**, focusing on making advanced AI models practical for **decentralized real-world infrastructure**.
+# Technical Stack
 
+### Systems Architecture & Infrastructure
+* **Backend:** PHP (Senior), Laravel, PostgreSQL / MySQL, Redis
+* **Distributed Systems:** Docker, Kubernetes, Linux systems administration
+* **Architecture:** RESTful and GraphQL APIs, MQTT messaging systems, Event-driven microservices
+
+### Machine Learning & Edge Systems
+* **Frameworks:** PyTorch, TensorFlow Lite, Graph Neural Networks (GNNs)
+* **Hardware:** NVIDIA Jetson, SBC-class hardware, low-latency execution
+* **Optimization:** Model quantization, deterministic edge-native execution layers
+
+### Biomedical Data Systems
+* Protein-protein interaction networks & TCGA dataset preprocessing
+* Generic healthcare interoperability policy concepts (FHIR)
+* Privacy-aware, zero-cloud distributed systems
 
 # Flagship Work
 
 ## Edge-GNN Systems Analysis
+**Repository:** [https://github.com/swapins/gnn-edge-systems-analysis](https://github.com/swapins/gnn-edge-systems-analysis)
+**Publication:** [DOI 10.5281/zenodo.19208247](https://doi.org/10.5281/zenodo.19208247)
 
-Repository
-https://github.com/swapins/gnn-edge-systems-analysis
-
-A systems-level investigation into **deploying Graph Neural Networks on edge hardware** for biological network analysis.
+A systems-level investigation into deploying Graph Neural Networks on edge hardware for biological network analysis. Instead of relying on cloud infrastructure, this deterministic system utilizes a custom **Data Structuring & Preprocessing Layer** to operate natively on resource-constrained devices.
 
 The project explores:
+* Graph Neural Network inference under strict hardware constraints
+* Latency and memory behavior of deterministic GNN architectures
+* Biological interaction network modeling
+* Architectural strategies for hardware-aware machine learning systems
 
-* Graph Neural Network inference under **hardware constraints**
-* latency and memory behavior of GNN architectures
-* biological interaction network modeling
-* architectural strategies for **hardware-aware machine learning systems**
-
-This repository serves as an **experimental framework for studying Edge-native GNN deployment**.
-
+This repository serves as an experimental framework for studying Edge-native GNN deployment and forms the architectural basis for a registered on-device clinical intelligence framework (Indian Patent No. 202541127477).
 
 # Research Identity
 
-My research interests sit at the intersection of **artificial intelligence systems, graph neural networks, and computational biology**.
+My research interests sit at the intersection of artificial intelligence systems, graph neural networks, and computational biology. 
 
-Research areas include:
-
-* Graph Neural Networks (GNN)
-* Edge AI systems
-* Computational biology
-* Protein interaction network modeling
-* Decentralized machine learning systems
-* Hardware-aware neural architecture design
-
-Academic researcher identifier:
-
-ORCID
-https://orcid.org/0009-0009-5758-3845
-
+**Academic researcher identifier (ORCID):** [0009-0009-5758-3845](https://orcid.org/0009-0009-5758-3845)
 
 # Selected Architecture Prototypes
 
 ### Med-Guard — Edge Clinical Monitoring
-
-A decentralized anomaly detection framework designed for **real-time physiological signal analysis on single-board computers**.
-
-Focus areas include:
-
-* signal normalization stability
-* low-latency inference
-* fault-tolerant distributed monitoring architectures
-
+A decentralized anomaly detection framework designed for **real-time physiological signal analysis on single-board computers**. Focus areas include signal normalization stability, low-latency inference, and fault-tolerant distributed monitoring architectures.
 
 ### Oncology-GNN-Edge — Biomedical Graph Modeling
-
-Experimental framework for **Graph Neural Network architectures applied to protein-protein interaction networks**.
-
-Research focus:
-
-* normalized graph convolution stability
-* sparse graph processing
-* feasibility of GNN inference on constrained hardware platforms
-
-
-### PeachBotAgri — Modular Edge-AI Platform
-
-A modular experimentation platform integrating:
-
-* computer vision detection models
-* IoT telemetry streams
-* GPS-linked environmental datasets
-
-Designed to evaluate **distributed AI inference strategies in low-connectivity agricultural environments**.
-
+Experimental framework for **Graph Neural Network architectures applied to protein-protein interaction networks**. Focuses on normalized graph convolution stability and the feasibility of sparse graph processing on constrained hardware platforms.
 
 ### Eco-Guard Ramsar — Environmental Monitoring Architecture
+Experimental edge architecture combining **environmental sensor fusion with AI-assisted biological indicator detection** for distributed ecological monitoring research.
 
-Experimental edge architecture combining **environmental sensor fusion with AI-assisted biological indicator detection** for ecological monitoring research.
+# Background & Education
 
+* **Diploma in Business Administration** (In Progress) 
+  * *Currently exploring organizations for a required short-term Corporate Attachment (Practicum) starting in August 2026, focusing on Technical Operations, Product Management, or Startup Strategy.*
+* **MBBS Coursework** — Government Medical College, Thiruvananthapuram
 
-# Technical Stack
-
-### Machine Learning & Edge Systems
-
-* PyTorch
-* TensorFlow Lite
-* Graph Neural Networks
-* Model quantization and optimization
-* NVIDIA Jetson and SBC-class hardware
-
-### Systems Architecture
-
-* PHP (Senior)
-* Laravel
-* PostgreSQL / MySQL
-* Redis
-* RESTful and GraphQL APIs
-
-### Distributed Infrastructure
-
-* Docker
-* Kubernetes
-* Linux systems administration
-* MQTT messaging systems
-* Event-driven microservices
-
-### Biomedical Data Systems
-
-* Protein-protein interaction networks
-* TCGA dataset preprocessing
-* Healthcare interoperability concepts (FHIR)
-* Privacy-aware distributed systems
-
-
-# Background
-
-* MBBS Coursework — Government Medical College, Thiruvananthapuram
-* Diploma in Business Administration (In Progress)
-
-My work integrates **medical domain understanding with systems engineering** to explore scalable **decentralized AI architectures**.
-
-
-# Current Exploration
-
-* Hardware-aware Graph Neural Network optimization
-* Stability-aware neural model compression
-* Energy-efficient edge inference scheduling
-* Distributed anomaly detection across edge nodes
-* Edge-native AI architecture design
+My work integrates medical domain understanding with systems engineering to explore scalable decentralized AI architectures.
 
 ---
 
-Singapore-based.
-
-Open to **research collaboration, interdisciplinary AI systems development, and systems-level architecture discussions**.
+Open to **technical strategy and operations roles, systems-level architecture discussions**, and **short-term corporate attachments** that bridge technical execution with business administration.
