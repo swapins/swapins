@@ -36,13 +36,21 @@ The project explores:
 * Biological interaction network modeling
 * Architectural strategies for hardware-aware machine learning systems
 
-This repository serves as an experimental framework for studying Edge-native GNN deployment and forms the architectural basis for a registered on-device clinical intelligence framework (Indian Patent No. 202541127477).
+**Project Outcomes:**
+* **Manuscript (Under Review):** *Edge-GNN: A Constraint-Aware Graph Neural Network Framework for Resource-Efficient Biological Interaction Modeling*
+* **Patent:** Forms the architectural basis for a registered on-device clinical intelligence framework (Indian Patent No. 202541127477)
 
 # Research Identity
 
 My research interests sit at the intersection of artificial intelligence systems, graph neural networks, and computational biology. 
 
 **Academic researcher identifier (ORCID):** [0009-0009-5758-3845](https://orcid.org/0009-0009-5758-3845)
+
+### Selected Publications & Manuscripts
+* **Preprint:** *Edge-GNN: A Constraint-Aware Graph Neural Network Framework for Resource-Efficient Biological Interaction Modeling* (March 2026) — [[DOI:10.21203/rs.3.rs-9096630/v1](https://doi.org/10.21203/rs.3.rs-9096630/v1)]
+* **Preprint:** *Edge-Based Execution of Graph Neural Networks for Protein Interaction Network Analysis in Clinical Oncology* (January 2026) — [[DOI:10.21203/rs.3.rs-8645211/v1](https://doi.org/10.21203/rs.3.rs-8645211/v1)]
+* **Preprint:** *Dedicated Edge-AI Single-Board Computer Systems for Ecological Monitoring in Protected Wetlands: Evidence from a Ramsar Site in India* (January 2026) — [[DOI:10.21203/rs.3.rs-8553049/v1](https://doi.org/10.21203/rs.3.rs-8553049/v1)] Environmental Monitoring and Assessment -under review
+* **Software Publication:** *Edge-GNN Software Framework* [[DOI 10.5281/zenodo.19208247](https://doi.org/10.5281/zenodo.19208247)]
 
 # Selected Architecture Prototypes
 
@@ -62,7 +70,6 @@ Experimental edge architecture combining **environmental sensor fusion with AI-a
 * **MBBS Coursework** — Government Medical College, Thiruvananthapuram
 
 My work integrates medical domain understanding with systems engineering to explore scalable decentralized AI architectures.
-
 ---
 
 Open to **technical strategy and operations roles, systems-level architecture discussions**, and **short-term corporate attachments** that bridge technical execution with business administration.
