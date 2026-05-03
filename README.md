@@ -1,9 +1,9 @@
 # Swapin Vidya
 **Systems Architect | Edge AI | ML Systems Design**
 
-I build constraint-aware AI systems with a focus on edge deployment, reproducibility, and measurable trade-offs.
+I design and build constraint-aware AI systems focused on edge deployment, reproducibility, and measurable trade-offs.
 
-With a background in backend engineering and distributed systems, my current work focuses on:
+With a strong foundation in backend engineering and distributed systems, my current work focuses on:
 
 * **Edge AI pipelines (audio and vision)**
 * **Lightweight model deployment under resource constraints**
@@ -16,7 +16,7 @@ By combining deterministic systems engineering with foundational medical domain 
 
 ---
 
-# Flagship System — PeachbotAI
+## Flagship System — PeachbotAI
 
 **PeachbotAI is a unified edge-native intelligence architecture designed for decentralized, real-time AI systems operating under strict resource constraints.**
 
@@ -82,9 +82,9 @@ Signals → Interface → Knowledge → SBC Engine → Decision → Local Action
 
 ---
 
-# Flagship Work
+## Flagship Work
 
-## Edge-GNN Systems Analysis
+### Edge-GNN Systems Analysis
 
 **Repository:** [https://github.com/swapins/gnn-edge-systems-analysis](https://github.com/swapins/gnn-edge-systems-analysis)
 **Publication:** DOI 10.5281/zenodo.19208247
@@ -105,7 +105,7 @@ The project explores:
 
 ---
 
-# System Evidence
+## System Evidence
 
 To support architectural claims, current systems emphasize:
 
@@ -118,7 +118,7 @@ To support architectural claims, current systems emphasize:
 
 ---
 
-# Research Identity
+## Research Identity
 
 My research interests sit at the intersection of artificial intelligence systems, graph neural networks, and computational biology.
 
@@ -135,9 +135,9 @@ My research interests sit at the intersection of artificial intelligence systems
 
 ---
 
-# Selected Architecture Prototypes
+## Selected Architecture Prototypes
 
-## ZeroCloud-Edge-Mesh — Distributed Edge Coordination
+### ZeroCloud-Edge-Mesh — Distributed Edge Coordination
 
 A **local-first, peer-to-peer coordination system** designed for running Graph Neural Network inference across distributed edge nodes without centralized infrastructure.
 
@@ -152,7 +152,7 @@ The system demonstrates how **edge-native biological computation can be coordina
 
 ---
 
-## BioGraph-Edge-Quantizer — Resource-Aware GNN Optimization
+### BioGraph-Edge-Quantizer — Resource-Aware GNN Optimization
 
 A **quantization-aware Graph Neural Network pipeline** designed for biological interaction modeling under strict edge constraints.
 
@@ -187,7 +187,7 @@ The system highlights how **model compression impacts memory, latency, and predi
 
 ---
 
-# Design Philosophy
+## Design Philosophy
 
 Across all systems, the underlying approach is:
 
@@ -198,7 +198,7 @@ Across all systems, the underlying approach is:
 
 ---
 
-# Background & Education
+## Background & Education
 
 * **Diploma in Business Administration** (In Progress)
   *Currently exploring organizations for a required short-term Corporate Attachment (Practicum) starting in August 2026, focusing on Technical Operations, Product Management, or Startup Strategy.*
@@ -209,7 +209,7 @@ My work integrates medical domain understanding with systems engineering to expl
 
 ---
 
-# Availability
+## Availability
 
 Open to:
 
