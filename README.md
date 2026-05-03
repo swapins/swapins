@@ -3,6 +3,19 @@
 
 I am a **Senior Systems Architect and Backend Developer with 7+ years of experience** building production-grade web applications and distributed infrastructure. Currently on a deliberate academic sabbatical, I am bridging my hardcore backend engineering expertise with advanced research in **Edge AI, Graph Neural Networks (GNNs), and clinical intelligence**.
 
+**Systems Engineer | Edge AI | ML Systems Design**
+
+I build constraint-aware AI systems with a focus on edge deployment, reproducibility, and measurable trade-offs.
+
+With a background in backend engineering and distributed systems, my current work focuses on:
+
+* **Edge AI pipelines (audio and vision)**
+* **Lightweight model deployment under resource constraints**
+* **Reproducible ML experimentation systems**
+* **Structured reasoning systems (LLM + retrieval)**
+
+I am particularly interested in how real-world constraints—latency, memory, and reliability—shape system design decisions, especially in domains like healthcare and environmental monitoring.
+
 By combining deterministic systems engineering with foundational medical domain knowledge and ongoing Business Administration studies, I focus on driving technical strategy and scaling decentralized AI operations for real-world infrastructure.
 
 # Technical Stack
