@@ -1,6 +1,5 @@
 # Swapin Vidya
-**Systems Engineer | Edge AI | ML Systems Design**
-**Systems Architect (Edge AI Systems & Distributed Intelligence)**
+**Systems Architect | Edge AI | ML Systems Design**
 
 I build constraint-aware AI systems with a focus on edge deployment, reproducibility, and measurable trade-offs.
 
