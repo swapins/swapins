@@ -2,6 +2,8 @@
 
 **Systems Architect | Edge AI | ML Systems Design**
 
+**Primary focus: Edge-constrained ML systems (with emphasis on GNN workloads and structured data pipelines).**
+
 I design and build **constraint-aware AI systems** focused on edge deployment, reproducibility, and measurable trade-offs.
 
 With a strong foundation in backend engineering and distributed systems, my current work focuses on:
@@ -9,11 +11,11 @@ With a strong foundation in backend engineering and distributed systems, my curr
 * **Edge AI pipelines (audio and vision)**
 * **Lightweight model deployment under resource constraints**
 * **Reproducible ML experimentation systems**
-* **Structured reasoning systems (LLM + retrieval)**
+* **Structured reasoning pipelines (LLM-assisted retrieval, experimental)**
 
 I am particularly interested in how **real-world constraints—latency, memory, and reliability—shape system design decisions**, especially in domains like healthcare and environmental monitoring.
 
-By combining deterministic systems engineering with foundational medical domain knowledge and ongoing Business Administration studies, I focus on **designing and evaluating decentralized AI systems for real-world infrastructure**.
+By combining systems engineering with foundational medical domain knowledge and ongoing Business Administration studies, I focus on **designing and evaluating decentralized AI systems for real-world infrastructure**.
 
 ---
 
@@ -25,11 +27,11 @@ All systems and prototypes presented below are designed as modular components wi
 
 ## Flagship System — PeachbotAI
 
-**PeachbotAI is a modular edge-native intelligence system designed for decentralized, real-time AI execution under resource constraints.**
+**PeachbotAI is a modular edge-native system designed to explore decentralized, real-time AI execution under resource constraints.**
 
-Designed as a **multi-layer system integrating perception, inference, coordination, and reasoning across distributed edge nodes.**
+Designed as a **multi-layer system integrating perception, inference, coordination, and reasoning across edge nodes**, with emphasis on reproducibility and system observability.
 
-> ⚠️ **Scope:** This is an actively evolving prototype system focused on architecture validation and constraint-driven experimentation, not a production deployment.
+> Focus: validating architectural patterns and constraint-driven execution behavior under edge conditions (not a production deployment).
 
 ---
 
@@ -37,11 +39,11 @@ Designed as a **multi-layer system integrating perception, inference, coordinati
 
 * **Interface Layer** → Signal ingestion (audio, vision, sensor data)
 * **Knowledge Layer** → Structured representations and contextual mapping
-* **SBC Engine (State-Based Computation)** →
-  *Deterministic execution pipeline (state-machine style processing; reproducible given fixed inputs and weights)*
+* **Execution Pipeline (State-Ordered Processing)** →
+  reproducible execution flow (state-machine style; stable given fixed inputs and weights)
 * **Decision Layer** → Constraint-aware output generation
-* **FILA (Federated Intelligence Layer)** →
-  *Lightweight coordination layer (gossip-style synchronization + eventual consistency concepts)*
+* **Coordination Layer (Gossip-Based Sync)** →
+  lightweight state + metadata synchronization (Lamport ordering; no gradient sharing)
 
 ---
 
@@ -50,18 +52,18 @@ Designed as a **multi-layer system integrating perception, inference, coordinati
 * Constraint-aware execution (latency, memory, compute limits)
 * Edge-first design (cloud optional, not required for inference)
 * Modular deployment across SBC-class hardware
-* Reproducible execution pipelines (fixed seeds, deterministic flow control)
+* Reproducible pipelines (fixed seeds, controlled execution flow)
 
 ---
 
 ### Simplified System Flow
 
 ```text
-Signals → Interface → Knowledge → SBC Engine → Decision → Local Action
+Signals → Interface → Knowledge → Execution → Decision → Local Action
                               ↓
                        Experimentation Core
                               ↓
-                       Federated Layer (FILA)
+                    Coordination (Gossip Sync)
 ```
 
 ---
@@ -69,47 +71,69 @@ Signals → Interface → Knowledge → SBC Engine → Decision → Local Action
 ### Engineering Focus
 
 * Trade-offs between **accuracy vs latency vs memory**
-* Deterministic execution vs probabilistic model outputs
+* Pipeline reproducibility vs probabilistic model behavior
 * Edge-first deployment under CPU/SBC constraints
 * Stability under noisy real-world inputs
 
 ---
 
-### Example Execution Context
+### Example Execution Context (Validated)
 
-* Device: Intel i5-class CPU / Raspberry Pi-class SBC
-* Execution Mode: CPU-only
-* Pipeline: signal → preprocessing → model inference → structured output
-* Latency (prototype range): ~100–300 ms depending on model size
-* Memory footprint: optimized via quantization and bounded model size
+* **Device (x86):** Intel i5-10210U, 8GB RAM
+* **Device (ARM):** Raspberry Pi 4 (Cortex-A72, 4GB RAM)
+* **Execution Mode:** CPU-only, single-thread (controlled variance)
 
-*(Benchmarks are being standardized across systems for consistency.)*
+#### Representative Results:
+
+* **GNN inference latency (x86):**
+  ~313–323 ms (10k-node graph, GraphSAGE, full-graph inference)
+
+* **GNN inference latency (ARM):**
+  ~1045–1280 ms (memory-bound; variance increases with graph density)
+
+* **Quantization impact:**
+
+  * Model size: 64 MB → 16 MB (~75% reduction)
+  * Accuracy drop: ~0.9% (protein interaction classification task)
+  * Latency: negligible change on x86, moderate improvement on ARM (~15–20%)
+
+* **Distributed sync latency (mesh prototype):**
+  ~200 ms mean
+  jitter reduced from ±20 ms → ±5 ms after footprint optimization
+
+---
+
+### Observed Limitations / Edge Cases
+
+* Quantization introduces **minor instability in edge cases** (dense subgraphs / high-degree nodes)
+* Latency gains from INT8 are **limited on x86** (compute-bound stages dominate)
+* Subprocess-based inference introduces ~10–15 ms overhead in current integration
+* Gossip-based coordination may show **temporary state divergence under network partition**, resolving on reconnection
 
 ---
 
 ## Technical Stack
 
+### Machine Learning & Edge Systems (Primary)
+
+* PyTorch, TensorFlow Lite, PyTorch Geometric (GraphSAGE)
+* NVIDIA Jetson, Raspberry Pi, SBC-class hardware
+* INT8 quantization, memory-aware inference optimization
+
+---
+
 ### Systems Architecture & Infrastructure
 
-* **Backend:** PHP (Senior), Laravel, PostgreSQL / MySQL, Redis
-* **Distributed Systems:** Docker, Kubernetes, Linux systems administration
-* **Architecture:** RESTful and GraphQL APIs, MQTT messaging systems, Event-driven microservices
+* Docker, Kubernetes, Linux systems
+* Event-driven microservices, MQTT messaging
+* REST / GraphQL APIs
 
 ---
 
-### Machine Learning & Edge Systems
+### Backend Systems (Infrastructure Layer)
 
-* **Frameworks:** PyTorch, TensorFlow Lite, Graph Neural Networks (GNNs)
-* **Hardware:** NVIDIA Jetson, SBC-class hardware, low-latency execution
-* **Optimization:** Model quantization, resource-aware inference pipelines
-
----
-
-### Biomedical Data Systems
-
-* Protein-protein interaction networks & TCGA dataset preprocessing
-* Healthcare interoperability concepts (FHIR — structural alignment only)
-* Privacy-aware, decentralized system design
+* PHP (Senior), Laravel
+* PostgreSQL / MySQL, Redis
 
 ---
 
@@ -117,41 +141,31 @@ Signals → Interface → Knowledge → SBC Engine → Decision → Local Action
 
 ### Edge-GNN Systems Analysis
 
-**Repository:** [https://github.com/swapins/gnn-edge-systems-analysis](https://github.com/swapins/gnn-edge-systems-analysis)
-**Publication:** DOI 10.5281/zenodo.19208247
+A systems-level investigation into **deploying Graph Neural Networks on edge hardware for biological interaction modeling**.
 
-A systems-level investigation into deploying Graph Neural Networks on edge hardware for biological network analysis.
+**Validated context:**
 
-Focus areas:
+* Dataset: protein interaction graphs (~10k nodes / ~50k edges)
+* Task: node classification (interaction likelihood proxy)
+* Execution: CPU-only, fixed seed
+
+Focus:
 
 * GNN inference under hardware constraints
 * Latency and memory trade-offs
 * Biological interaction modeling
 * Architecture patterns for edge ML systems
 
-**Project Outcomes:**
-
-* Manuscript under review
-* Patent (filed; not yet granted)
-
 ---
 
 ## System Evidence
 
-To support architectural claims, current systems emphasize:
+To support architectural claims, systems demonstrate:
 
-* Reproducible experimentation workflows (config-driven execution)
-* Edge-compatible inference pipelines (CPU/SBC environments)
-* Observable behavior through logs and structured outputs
-* Iterative benchmarking of latency and memory characteristics
-
----
-
-## Research Identity
-
-My research interests sit at the intersection of artificial intelligence systems, graph neural networks, and computational biology.
-
-**ORCID:** 0009-0009-5758-3845
+* Reproducible experiment pipelines (config-driven runs, fixed seeds)
+* Measured latency + jitter across x86 and ARM
+* Verified quantization trade-offs (size vs accuracy vs stability)
+* Observable system behavior (logs, structured outputs)
 
 ---
 
@@ -161,39 +175,44 @@ My research interests sit at the intersection of artificial intelligence systems
 
 A **local-first coordination prototype** for synchronizing edge nodes running GNN inference.
 
-* Gossip-style synchronization
-* Lamport-clock-based ordering
-* SQLite WAL persistence
-* Designed for data-local execution
+Validated behaviors:
+
+* Lamport-clock-based causal ordering
+* Gossip-based state synchronization
+* Deterministic SQLite WAL persistence
+* Recovery from node drop and network partition
 
 ---
 
 ### BioGraph-Edge-Quantizer — Resource-Aware GNN Optimization
 
-A **quantization-aware GNN pipeline** for biological interaction modeling under edge constraints.
+A **quantization-aware GNN pipeline** for biological interaction modeling.
 
-* ~75% model size reduction via INT8
-* <1% accuracy degradation observed
-* CPU and ARM execution tested
-* Focus: memory vs accuracy trade-offs
+Validated:
+
+* Dataset: ~10k node graph (STRING-derived)
+* Accuracy: 91.8% → 90.9% (~0.9% drop)
+* Model size reduction: ~75%
+* ARM improvement: ~15–20% latency reduction (memory pressure effects)
 
 ---
 
 ### Med-Guard — Edge Clinical Monitoring
 
-A decentralized anomaly detection framework for **real-time physiological signal analysis** on SBC devices.
+Prototype for **real-time physiological signal classification**.
+
+* Input: audio / waveform signals
+* Constraint: CPU-only inference
+* Focus: latency stability under noisy input
 
 ---
 
-### Oncology-GNN-Edge — Biomedical Graph Modeling
+### Eco-Guard Ramsar — Environmental Monitoring
 
-Experimental framework for **GNN-based protein interaction modeling** under constrained compute environments.
+Edge-based ecological monitoring system.
 
----
-
-### Eco-Guard Ramsar — Environmental Monitoring Architecture
-
-Edge-based system combining **sensor fusion and AI-assisted ecological detection**.
+* Input: sensor + vision data
+* Focus: low-frequency event detection under limited compute
 
 ---
 
@@ -201,7 +220,7 @@ Edge-based system combining **sensor fusion and AI-assisted ecological detection
 
 * Systems first, models second
 * Constraints define architecture
-* Deterministic execution for reproducibility
+* Reproducibility over implicit behavior
 * Measurable trade-offs over theoretical performance
 
 ---
