@@ -56,7 +56,7 @@ Signals → Interface → Knowledge → SBC Engine → Decision → Local Action
 
 ---
 
-# Technical Stack
+## Technical Stack
 
 ### Systems Architecture & Infrastructure
 
