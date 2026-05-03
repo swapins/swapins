@@ -22,6 +22,7 @@ All systems and prototypes presented below are modular research and engineering 
 ---
 
 # Flagship System — PeachbotAI
+![PeachbotAI Architecture](./peachbot_arch.png)
 
 **PeachbotAI is a hybrid edge AI system for safety-critical environments, combining deterministic orchestration with controlled machine learning components.**
 
