@@ -1,8 +1,4 @@
 # Swapin Vidya
-**Senior Systems Architect | Edge-Native Intelligence | Technical Strategy**
-
-I am a **Senior Systems Architect and Backend Developer with 7+ years of experience** building production-grade web applications and distributed infrastructure. Currently on a deliberate academic sabbatical, I am bridging my hardcore backend engineering expertise with advanced research in **Edge AI, Graph Neural Networks (GNNs), and clinical intelligence**.
-
 **Systems Engineer | Edge AI | ML Systems Design**
 
 I build constraint-aware AI systems with a focus on edge deployment, reproducibility, and measurable trade-offs.
