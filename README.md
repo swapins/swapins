@@ -21,7 +21,7 @@ All systems and prototypes presented below are modular research and engineering 
 
 ---
 
-# Flagship System — PeachbotAI
+## Flagship System — PeachbotAI
 ![PeachbotAI Architecture](./peachbot_arch.png)
 
 **PeachbotAI is a hybrid edge AI system for safety-critical environments, combining deterministic orchestration with controlled machine learning components.**
@@ -36,7 +36,7 @@ It is designed for **real-time, on-device intelligence** in domains such as heal
 
 ---
 
-## Architectural Principle
+### Architectural Principle
 
 Peachbot follows a **system-centric architecture**:
 
@@ -48,7 +48,7 @@ This ensures **controlled, auditable system behavior under real-world constraint
 
 ---
 
-## Core Architecture Layers
+### Core Architecture Layers
 
 * **Input Layer** → real-world signals (clinical, environmental, biological)
 * **Preprocessing Layer** → normalization and structuring
@@ -61,7 +61,7 @@ This ensures **controlled, auditable system behavior under real-world constraint
 
 ---
 
-## SBC (State-Based Computation)
+### SBC (State-Based Computation)
 
 Implemented as:
 
@@ -73,7 +73,7 @@ Implemented as:
 
 ---
 
-## FILA (Federated Intelligence Layer)
+### FILA (Federated Intelligence Layer)
 
 * Coordination layer for distributed edge nodes
 
@@ -92,7 +92,7 @@ Implemented as:
 
 ---
 
-## System Behavior
+### System Behavior
 
 * Learning is localized and continuous
 * Intelligence emerges across nodes
@@ -171,7 +171,7 @@ Implemented as:
 
 ---
 
-# ⚙️ Technical Stack
+## Technical Stack
 
 ### Machine Learning & Edge Systems
 
@@ -197,7 +197,7 @@ Implemented as:
 
 ---
 
-# Selected System Prototypes (Foundational Work)
+## Selected System Prototypes (Foundational Work)
 
 These are **independent prototypes and research systems** that informed the PeachbotAI architecture.
 
@@ -258,7 +258,7 @@ These systems contributed architectural insights:
 
 ---
 
-# Design Philosophy
+## Design Philosophy
 
 * Systems first, models second
 * Constraints define architecture
@@ -268,14 +268,14 @@ These systems contributed architectural insights:
 
 ---
 
-# Background
+## Background
 
 * MBBS Coursework — Government Medical College
 * Diploma in Business Administration (In Progress)
 
 ---
 
-# Availability
+## Availability
 
 Open to:
 
