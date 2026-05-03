@@ -14,13 +14,15 @@ I am particularly interested in how real-world constraints—latency, memory, an
 
 By combining deterministic systems engineering with foundational medical domain knowledge and ongoing Business Administration studies, I focus on driving technical strategy and scaling decentralized AI operations for real-world infrastructure.
 
+**All systems and prototypes presented below are designed as modular components within a unified edge-native architecture.**
+
 ---
 
 ## Flagship System — PeachbotAI
 
-**PeachbotAI is a unified edge-native intelligence architecture designed for decentralized, real-time AI systems operating under strict resource constraints.**
+**PeachbotAI is a modular edge-native intelligence system designed for decentralized, real-time AI execution under strict resource constraints.**
 
-It represents a **multi-layer system architecture** integrating perception, reasoning, and execution across distributed edge environments.
+It represents a **multi-layer system architecture** integrating perception, reasoning, and execution across distributed edge environments.Designed as a multi-layer system integrating perception, inference, coordination, and reasoning across distributed edge nodes.
 
 ### Core System Layers
 
@@ -162,6 +164,8 @@ Focus areas include:
 * Controlled latency benchmarking under CPU-only execution
 * Reproducible evaluation across x86 and ARM environments
 * Trade-off analysis between accuracy and resource efficiency
+  
+The system highlights how **model compression impacts memory, latency, and predictive stability**, particularly in edge-constrained biological workloads. 
 
 
 ### Med-Guard — Edge Clinical Monitoring
@@ -179,11 +183,6 @@ Experimental framework for **Graph Neural Network architectures applied to prote
 ### Eco-Guard Ramsar — Environmental Monitoring Architecture
 
 Experimental edge architecture combining **environmental sensor fusion with AI-assisted biological indicator detection** for distributed ecological monitoring research.
-
----
-
-
-The system highlights how **model compression impacts memory, latency, and predictive stability**, particularly in edge-constrained biological workloads. 
 
 ---
 
