@@ -1,288 +1,59 @@
 # Swapin Vidya
 
-**Systems Architect | Edge AI | ML Systems Design**
+**Systems Architect & Co-founder | Edge AI • Applied ML • Biomedical Systems • Distributed Infrastructure**
 
-**Primary focus: Edge-constrained ML systems (GNN workloads, structured pipelines, and distributed edge coordination).**
+I design and build AI systems where hardware constraints, model performance, reliability and data governance shape architecture.
 
-I design and build **edge-native AI systems** where real-world constraints—latency, memory, and reliability—directly shape system architecture.
+As a **Systems Architect and Co-founder at Provenant AI Labs**, my focus is on resource-aware AI, edge-device engineering, applied research and responsible deployment. I also bring a substantial background in backend and systems engineering.
 
-With a strong foundation in backend engineering and distributed systems, my work focuses on:
+[LinkedIn](https://www.linkedin.com/in/swapin-vidya/) · [Repositories](https://github.com/swapins?tab=repositories)
 
-* **Edge AI pipelines (audio, vision, biological signals)**
-* **Graph-based ML systems under resource constraints (Edge-GNN)**
-* **Distributed coordination across edge nodes (gossip / federated patterns)**
-* **Reproducible ML experimentation and benchmarking systems**
+## Engineering focus
 
----
+- **Edge AI and ML systems:** resource-aware inference, model profiling, quantization and reproducible experimentation
+- **Biomedical and graph AI:** graph neural networks, biological data integration and evaluation methodology
+- **Distributed systems:** coordination across edge nodes, state consistency and fault tolerance
+- **Software architecture:** Laravel/PHP, APIs, Docker, Linux and database-backed platforms
+- **Research engineering:** turning experimental concepts into testable prototypes and measurable results
 
-```text
-All systems and prototypes presented below are modular research and engineering foundations that inform the PeachbotAI architecture.
-```
+## Selected public projects
 
----
+| Project | Engineering focus |
+| --- | --- |
+| [Edge-GNN Systems Analysis](https://github.com/swapins/gnn-edge-systems-analysis) | Constraint-aware graph learning and biological ML experimentation |
+| [BioGraph Edge Quantizer](https://github.com/swapins/BioGraph-Edge-Quantizer) | Quantization and memory-conscious GNN inference |
+| [ZeroCloud Edge Mesh](https://github.com/swapins/zerocloud-edge-mesh) | Edge-node synchronization and distributed coordination |
+| [Oncology GNN Edge](https://github.com/swapins/oncology-gnn-edge) | Exploratory oncology graph-learning workflows |
+| [Factory Vision AI](https://github.com/swapins/Factory-Vision-AI) | Applied computer vision |
+| [TestForge AI](https://github.com/swapins/testforge-ai) | Human-reviewed QA test generation; collaborative project |
 
-## Flagship System — PeachbotAI
-![PeachbotAI Architecture](./peachbot_arch.png)
+**Research and prototype status:** The projects above vary in maturity and purpose. Consult each repository for implementation details, experimental results, authorship and limitations. Public demos are not claims of clinical or production certification.
 
-**PeachbotAI is a hybrid edge AI system for safety-critical environments, combining deterministic orchestration with controlled machine learning components.**
+## Architecture philosophy
 
-It is designed for **real-time, on-device intelligence** in domains such as healthcare, environmental monitoring, and biological systems—where **auditability, latency, and reliability are critical**.
+**Systems first; models in a controlled, observable role.** My engineering interests include reproducible evaluation, resource-constrained execution, auditability and dependable distributed coordination.
 
-**Status:** Validated MVP → Early deployment transition
+Some public experiments informed subsequent architecture work. Unpublished algorithms, patent-sensitive mechanisms and proprietary product implementations are deliberately excluded from this profile.
 
-* Multi-layer architecture integrated and tested
-* Functional edge AI modules operational
-* Ongoing optimization for real-world deployment
+## Technical toolkit
 
----
+**ML and research:** Python, PyTorch, PyTorch Geometric, GNNs, model evaluation, quantization  
+**Edge and infrastructure:** Raspberry Pi, NVIDIA Jetson, Linux, Docker, distributed systems  
+**Software engineering:** PHP, Laravel, REST APIs, MySQL/MariaDB, PostgreSQL, Redis  
+**Healthcare interoperability:** HL7, FHIR, DICOM integration concepts and privacy-conscious processing
 
-### Architectural Principle
+## B2B collaborations
 
-Peachbot follows a **system-centric architecture**:
+I am open to **company-to-company technical collaboration through Provenant AI Labs**, especially with SMEs, product teams and research partners seeking:
 
-* Deterministic orchestration governs system behavior
-* ML models (GNNs, LLMs) are **supporting components**, not decision-makers
-* Outputs are validated through **safety and policy layers**
+- Edge AI / on-device inference architecture
+- AI/ML technical feasibility and engineering advisory
+- Biomedical data processing and interoperability
+- Graph-learning and resource-aware ML research
+- Prototype design, testing and reproducible benchmarking
 
-This ensures **controlled, auditable system behavior under real-world constraints**.
-
----
-
-### Core Architecture Layers
-
-* **Input Layer** → real-world signals (clinical, environmental, biological)
-* **Preprocessing Layer** → normalization and structuring
-* **Semantic Extraction Layer** → ML/NLP-based structured interpretation
-* **Knowledge Layer (Versioned KG)** → domain grounding (clinical, ecological, biological)
-* **Edge Intelligence Layer (SBC)** → state-centric execution and reasoning
-* **Safety Layer** → constraint enforcement and validation
-* **Output Layer** → alerts, recommendations, structured outputs
-* **Cloud Coordination Layer (FILA)** → metadata-only synchronization and validation
+Connect via [LinkedIn](https://www.linkedin.com/in/swapin-vidya/) to discuss a technical collaboration.
 
 ---
 
-### SBC (State-Based Computation)
-
-Implemented as:
-
-* state-machine–style execution pipeline
-* structured state → interpretation → constrained output
-* reproducible execution given fixed inputs and weights
-
-👉 Ensures **traceability and system-level control**, not deterministic ML predictions.
-
----
-
-### FILA (Federated Intelligence Layer)
-
-* Coordination layer for distributed edge nodes
-
-* Handles:
-
-  * metadata synchronization
-  * state consistency
-  * validation signals
-
-* Uses:
-
-  * gossip-style communication
-  * partial system visibility
-
-👉 Does **not perform model training or gradient sharing**.
-
----
-
-### System Behavior
-
-* Learning is localized and continuous
-* Intelligence emerges across nodes
-* Cloud provides coordination—not centralized control
-
----
-
-## Validated System Evidence
-
-### Hardware Context
-
-* Intel i5-10210U (8GB RAM)
-* Raspberry Pi 4 (4GB RAM)
-* CPU-only execution
-
----
-
-### Edge-GNN (BioGraph-Edge-Quantizer)
-
-* Dataset: ~10k node protein interaction graph (~50k edges)
-* Task: node classification
-
-**Results:**
-
-* Accuracy: 91.8% → 90.9% (~0.9% drop)
-* Model size: 64MB → 16MB (~75% reduction)
-* ARM latency improvement: ~15–20%
-* Observation: performance remains **memory-bound**, not compute-bound
-
----
-
-### Coordination Behavior (ZeroCloud-Edge-Mesh)
-
-* Mean sync latency: ~204 ms
-* Jitter reduced: ±20 ms → ±5 ms after optimization
-
-**Failure handling:**
-
-* Network partition → eventual convergence
-* Node drop → recovered via next sync cycle
-* Duplicate messages → deterministic resolution (LWW strategy)
-
----
-
-## Observed Limitations
-
-* Quantization introduces **minor instability in dense graph regions**
-* Limited latency improvement on x86 (compute bottlenecks dominate)
-* Gossip coordination may cause **temporary state divergence**
-* Subprocess-based execution adds ~10–15 ms overhead
-
----
-
-## Deployment Signal
-
-* Environmental system validated at **Sasthamkotta Ramsar Site (India)**
-* Edge-based ecological monitoring tested under real-world constraints
-* System transitioning toward deployment-scale infrastructure
-
----
-
-## Role of AI Models
-
-* Used for:
-
-  * perception
-  * pattern recognition
-  * contextual reasoning
-
-* Always:
-
-  * constrained by system logic
-  * validated before influencing outputs
-
-👉 Peachbot is **system-driven, not model-driven**.
-
----
-
-## Technical Stack
-
-### Machine Learning & Edge Systems
-
-* PyTorch, TensorFlow Lite, PyTorch Geometric (GraphSAGE)
-* SBC-class hardware (Jetson, Raspberry Pi)
-* INT8 quantization, memory-aware optimization
-
----
-
-### Distributed Systems
-
-* Gossip protocols, Lamport clocks
-* SQLite WAL persistence
-* Event-driven coordination
-
----
-
-### Backend & Infrastructure
-
-* PHP (Laravel), PostgreSQL, Redis
-* Docker, Kubernetes
-* REST / GraphQL APIs
-
----
-
-## Selected System Prototypes (Foundational Work)
-
-These are **independent prototypes and research systems** that informed the PeachbotAI architecture.
-
-They represent **focused explorations of constraints, subsystems, and design patterns**, later refined into a unified system.
-
----
-
-### BioGraph-Edge-Quantizer
-
-Resource-aware GNN inference system:
-
-* INT8 quantization (~75% reduction)
-* Accuracy trade-offs (~0.9% drop)
-* Memory-bound inference behavior
-
----
-
-### ZeroCloud-Edge-Mesh
-
-Distributed coordination prototype:
-
-* Gossip-based synchronization
-* Lamport clock ordering
-* SQLite WAL persistence
-* Eventual consistency under failure
-
----
-
-### Med-Guard
-
-Physiological signal monitoring prototype:
-
-* Real-time signal processing
-* CPU-only inference
-* Stability under noisy inputs
-
----
-
-### Eco-Guard Ramsar
-
-Environmental monitoring system:
-
-* Field deployment (Ramsar Site, India)
-* Edge-based sensing and detection
-* Low-frequency event monitoring
-
----
-
-### Relationship to PeachbotAI
-
-These systems contributed architectural insights:
-
-* GNN optimization → Edge Intelligence Layer
-* Distributed coordination → FILA design
-* Domain systems → Input and application validation
-
-👉 PeachbotAI is a **refined architecture built from these validated experiments**, not a direct aggregation.
-
----
-
-## Design Philosophy
-
-* Systems first, models second
-* Constraints define architecture
-* Reproducibility over abstraction
-* Measurable trade-offs over theoretical performance
-* Hybrid control (deterministic orchestration + ML support)
-
----
-
-## Background
-
-* MBBS Coursework — Government Medical College
-* Diploma in Business Administration (In Progress)
-
----
-
-## Availability
-
-Open to:
-
-* Systems architecture roles
-* Edge AI / ML systems engineering
-* Distributed systems / platform engineering
-* Applied research collaborations
-
----
-
+*Repositories may include independent research, collaborations, or earlier prototypes. Please follow project-specific licenses and attribution.*
